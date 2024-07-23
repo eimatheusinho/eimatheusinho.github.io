@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+    </style>
+    <title>Matheus Santos</title>
+</head>
+<body>
+    <div class="container">
+        <div class="home">
+            <div class="header">
+                <button class="prj" onclick="scrollToSection('section1')">Projetos</button>
+
+                <button class="abt" onclick="scrollToSection('section2')">Sobre</button>
+
+                <button class="cnt" onclick="scrollToSection('section3')">Contato</button>
+            </div>
+
+            <button class="resume">
+                <a class="rlink" href="/assets/Currículo-MatheusSantos.pdf">Currículo</a>
+            </button>
+
+            <div class="gmail">
+                <a onclick="sendEmail()">
+                    <img src="/assets/svg/mail.svg" alt="Email" width="25px">
+                    mthsesantos@gmail.com
+                </a>
+            </div>
+
+            <div class="fix">
+                <div class="git">
+                    <a href="https://github.com/eimatheusinho" target="_blank">
+                        <img src="/assets/svg/git.svg" alt="Github" width="45px">
+                    </a>
+                </div>
+
+                <div class="in">
+                    <a href="https://www.linkedin.com/in/matheus-eduardo-dos-santos-ti/" target="_blank">
+                        <img src="/assets/svg/in.svg" alt="Linkedin" width="43px">
+                    </a>
+                </div>
+
+                <div class="inst">
+                    <a href="https://www.instagram.com/eimatheusinho/" target="_blank">
+                        <img src="/assets/svg/inst.svg" alt="Instagram" width="36px">
+                    </a>
+                </div>
+
+
+                <div class="vert"></div>
+            </div>
+            
+            <div class="text">
+                <p class="hello">Olá, meu nome é</p>
+                <p class="name">Matheus Santos.</p>
+                <p class="info">
+                    Eu sou estudante de Engenharia de Software, <br>
+                    em busca de uma oportunidade para trabalhar<br> 
+                    na área de tecnologia. 
+                </p>
+            </div>
+            
+            <div class="img">
+                <img src="/assets/minhaFoto.jpg" alt="minha foto" width="250px" height="250px"></div>
+            <div class="square"></div>
+        </div>
+
+        <div class="hero">
+            <div class="proj" id="section1">
+                <div class="line"></div>
+    
+                <h1>Projetos</h1>
+                <div class="pMaria">
+                    <p class="pType">Trabalho TCC de Engenharia de Software.</p>
+                    <h1 class="pName">Maria</h1>
+                    <div class="pjt">
+                        <p class="dcn">
+                            Participei do desenvolvimento Front-end do projeto Maria, um site para professores,
+                            onde é possivel organizar suas turmas, provas e questões. Participei da criação das telas
+                            do projeto utilizando Html, Css e Javascript. Realizei os commits das branches no GitHub,
+                            utilizei o Adobe XD para usar as referências do projeto e organizava as pendências e
+                            conclusões das tarefas no Trello.
+                        </p>
+                    </div>
+
+                    <p class="tec">VSCode  Html  Css  Javascript  GitHub  AdobeXD  Trello</p>
+
+                    <a href="https://github.com/tamysteimbch/maria" target="_blank">
+                        <img src="/assets/Maria.png" alt="Projeto" width="600px">
+                    </a>
+                    
+                </div>
+    
+                <div class="pMuve">
+                    <p class="pType">Trabalho Acadêmico</p>
+                    <h1 class="pName">Muve</h1>
+                    <div class="pjt">
+                        <p class="dcn">
+                            Realizei a criação do projeto MUVE, uma aplicação para músicos independentes
+                            encontrarem trabalho mais facilmente e para contratantes de eventos ou donos de
+                            bares e restaurantes contratarem os artistas de suas preferências. Realizei o protótipo e
+                            design com o Figma e a organização das tarefas pelo Trello.
+                        </p>
+                    </div>
+
+                    <p class="tec">Figma  Trello</p>
+                    
+                    <a href="https://www.figma.com/community/file/1396573503759984762/muve" target="_blank">
+                        <img src="/assets/Muve (2).png" alt="Projeto" width="600px">
+                    </a>
+                </div>
+    
+                <div class="pPizza">
+                    <p class="pType">Trabalho Acadêmico</p>
+                    <h1 class="pName">Pizzaria</h1>
+                    <div class="pjt">
+                        <p class="dcn">
+                            Criei o UI e UX do projeto de uma pizzaria. Utilizei o Figma para criar o
+                            protótipo em suas versões Desktop e Mobile.
+                        </p>
+                    </div>
+
+                    <p class="tec">Figma</p>
+
+                    <a href="https://www.figma.com/community/file/1337472166965533378/pizzaria-desktop" target="_blank">
+                        <img src="/assets/Pizzaria.png" alt="Projeto" width="600px" height="350px">
+                    </a>
+                </div>
+    
+            </div>
+        
+            <div class="about" id="section2">
+                <div class="line"></div>
+    
+                <h1>Sobre</h1>
+
+                <p class="infos">
+                    Olá, meu nome é Matheus Eduardo dos Santos, sou estudante de Engenharia de Software no Centro Universitário da Fundação Assis Gurgacz (Cascavel-PR), atualmente no 4º período. 
+                    Tenho paixão por novas tecnologias e desenvolvimento de software, sempre buscando aprendizado e crescimento profissional. Minha carreira começou com experiências práticas
+                    em atendimento ao cliente e gestão de estoque, o que me ajudou a desenvolver habilidades essenciais como comunicação, resolução de problemas e trabalho em equipe.<br>
+                </p>
+                <p class="infos">
+                    Tenho conhecimentos técnicos em linguagens de programação como Java, C++ e JavaScript, além de familiaridade com conceitos de arquitetura de software e análise de requisitos. Estou constantemente atualizando
+                    minhas habilidades e tenho interesse em QA e desenvolvimento de software. Meu objetivo é aplicar e expandir esses conhecimentos em um ambiente de trabalho inovador e colaborativo, adquirindo 
+                    experiência e contribuindo para o desenvolvimento de soluções tecnológicas.
+                    <br><br>Tecnologias:
+                </p>
+
+                <div class="skills">
+                    <ul class="skills-column">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <ul class="skills-column">
+                        <li>C++</li>
+                        <li>Java</li>
+                        <li>Github</li>
+                    </ul>
+                    <ul class="skills-column">
+                        <li>Pacote Office</li>
+                        <li>Análise de Requisitos</li>
+                        <li>Trello</li>
+                    </ul>
+                    <ul class="skills-column">
+                        <li>Jira</li>
+                        <li>Figma</li>
+                        <li>Metodologias Ágeis</li>
+                    </ul>
+                </div>
+            </div>
+        
+            <div class="contact" id="section3">
+                <div class="line"></div>
+    
+                <h1>Contato</h1>
+
+                <div class="msg">
+                    <h1>Entre em contato</h1>
+                    <p>Se você quiser conversar, me mande uma mensagem!</p>
+                </div>
+                
+                <div class="eBtn">
+                    <button class="email-button" onclick="sendEmail()">Enviar mensagem</button>
+                </div>
+
+                <div class="topBtn">
+                    <button onclick="scrollToTop()" class="top">
+                        <img src="/assets/up-arrow.png" alt="Seta" width="50px">
+                    </button>
+                </div>
+                
+
+                <p class="cred">Projetado e desenvolvido por Matheus Santos 2024</p>
+            </div>
+        </div>
+    </div>
+<script src="/js/scroll.js"></script>
+<script src="/js/email.js"></script>
+<script src="/js/scrollT.js"></script>
+</body>
+</html>

@@ -1,0 +1,378 @@
+body {
+    background-color: #164a41;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'DM Sans';
+}
+
+.container {
+    flex-direction: column; 
+    padding-top: 5px; 
+}
+
+.home {
+    width: 100%;
+    height: 30rem;
+    padding-bottom: 1rem;
+}
+
+.header {
+    float: right;
+    padding: 1.5rem;
+    margin-right: 1rem;
+    word-spacing: 1rem;
+}
+
+.header button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #f1b24a;
+    font-size: 1.1rem;
+}
+
+.resume {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    background-color: #f1b24a;
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.resume a {
+    color: #164a41;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'DM Sans';
+}
+
+.gmail {
+    margin-left: 20rem;   
+    margin-top: -2rem; 
+    font-size: larger;  
+    cursor: pointer;  
+}
+
+.gmail img {
+    margin-bottom: -0.4rem;
+}
+
+
+.fix {
+    position: fixed;
+    bottom: 0px;
+    left: 60px;
+    line-height: 3rem;
+}
+
+.git {
+    margin-left: -1.3rem;
+}
+
+.in {
+    margin-left: -1.3rem;
+}
+
+.inst {
+    margin-left: -1.1rem;
+}
+
+.vert {
+    width: 1px;
+    background-color: #eee4e2;
+    height: 100px;
+    left: 50%;
+}
+
+.text {
+    position: absolute;
+    top: 8rem; 
+    margin-left: 10rem;
+}
+
+.hello {
+    font-size: 2rem;
+    color: #f1b24a;
+    font-weight: 800;
+}
+
+.name {
+    margin-top: -2rem;
+    font-size: 4rem;
+    color: #e7e0de;
+}
+
+.info {
+    font-size: 1.2rem;
+    margin-top: -3rem;
+    color: #9dc88d;
+}
+
+.img {
+    padding-top: 4rem;
+    padding-left: 3rem;
+    float: right;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.square {
+    width: 250px;
+    height: 250px;
+    border: 1px solid #f1b24a;
+    float: right;
+    margin-right: -20rem;
+    margin-top: 7rem;
+    z-index: -1;
+}
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-left: 10rem;
+    margin-bottom: -2rem;
+}
+
+.line {
+    margin-left: 10rem;
+    margin-bottom: -2.9rem;
+    height: 1px;
+    width: 80%;
+    background-color: #f1b24a;
+}
+
+.proj {
+    height: 60rem;
+    padding-bottom: 20rem;
+}
+
+.pType {
+    color: #f1b24a;
+    line-height: 1px;
+    font-weight: bold;
+    margin-bottom: -1rem;
+    line-height: 2rem;
+}
+
+.pMaria {
+    height: 20rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.dcn {
+    margin-top: -1rem;
+    background-color: #4d774e;
+    border-radius: 0.5rem;
+    padding: 1.2rem;
+    width: 40%;
+    color: #cde2c5;
+    position: relative;
+    z-index: 1; /* Garante que esteja acima das imagens */
+}
+
+.pMaria img, .pMuve img, .pPizza img {
+    position: relative;
+    z-index: 0; /* Garante que esteja abaixo do .dcn */
+}
+
+.tec {
+    word-spacing: 10px;
+    color: #9dc88d;
+}
+
+.pMaria img {
+    float: right;
+    margin-top: -21rem;
+}
+
+.pMuve {
+    height: 30rem;
+    padding-top: 3.5rem;
+}
+
+.pMuve img {
+    float: right;
+    margin-top: -20rem;
+}
+
+.pPizza {
+    margin-top: -4rem;
+}
+
+.pPizza img {
+    float: right;
+    margin-top: -17rem;
+}
+
+.about {
+    height: 30rem;
+}
+
+.infos {
+    padding-left: 8rem;
+    text-indent: 2rem;
+    text-align: justify;
+    max-width: 50rem;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    margin: 20px;
+}
+
+.contact {
+    height: 23rem;
+}
+
+.msg {
+    text-align: center;
+}
+
+.eBtn {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.email-button {
+    padding: 1rem;
+    background-color: #f1b24a;
+    color: #164a41;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'DM Sans';
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.top {
+    margin-top: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.topBtn {
+    display: flex;
+    justify-content: center;
+}
+
+.cred {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 1rem;
+    }
+
+    .header button {
+        font-size: 1rem;
+        margin: 0.5rem 0;
+    }
+
+    .resume {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+        margin: 0.5rem auto;
+    }
+
+    .resume a {
+        display: block;
+        text-align: center;
+    }
+
+    .gmail {
+        margin: 1rem auto;
+        text-align: center;
+    }
+
+    .fix {
+        position: static;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin: 1rem 0;
+    }
+
+    .text {
+        position: static;
+        padding: 1rem;
+        text-align: center;
+        margin: 0;
+    }
+
+    .img {
+        margin: 1rem 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .square {
+        display: none;
+    }
+
+    .hero {
+        padding: 1rem;
+    }
+
+    .dcn {
+        width: 100%;
+        padding: 1rem;
+        margin: 1rem 0;
+    }
+
+    .pMaria img, .pMuve img, .pPizza img {
+        width: 100%;
+        height: auto;
+        margin-top: 1rem;
+    }
+
+    .line {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .skills {
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem 0;
+    }
+
+    .skills-column {
+        width: 100%;
+        text-align: center;
+        margin: 0.5rem 0;
+    }
+
+    .eBtn {
+        padding-left: 0;
+    }
+
+    .email-button {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .top img {
+        width: 30px;
+    }
+}
