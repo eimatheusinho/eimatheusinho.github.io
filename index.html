@@ -3,30 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/eimatheusinho.github.io/css/styles.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
     </style>
     <title>Matheus Santos</title>
 </head>
 <body>
+    <div class="overlay">
+        <div class="intro">Matheus Santos <strong>Portfólio</strong></div>
+    </div>
     <div class="container">
         <div class="home">
             <div class="header">
-                <button class="prj" onclick="scrollToSection('section1')">Projetos</button>
+                <button class="btn-header" onclick="scrollToSection('section1')">Projetos</button>
 
-                <button class="abt" onclick="scrollToSection('section2')">Sobre</button>
+                <button class="btn-header" onclick="scrollToSection('section2')">Sobre</button>
 
-                <button class="cnt" onclick="scrollToSection('section3')">Contato</button>
+                <button class="btn-header" onclick="scrollToSection('section3')">Contato</button>
             </div>
 
             <button class="resume">
-                <a class="rlink" href="/assets/Currículo-MatheusSantos.pdf">Currículo</a>
+                <a class="rlink" href="/eimatheusinho.github.io/assets/Currículo-MatheusSantos.pdf">Currículo</a>
             </button>
 
             <div class="gmail">
                 <a onclick="sendEmail()">
-                    <img src="/assets/svg/mail.svg" alt="Email" width="25px">
+                    <img src="/eimatheusinho.github.io/assets/svg/mail.svg" alt="Email" width="25px">
                     mthsesantos@gmail.com
                 </a>
             </div>
@@ -34,19 +37,19 @@
             <div class="fix">
                 <div class="git">
                     <a href="https://github.com/eimatheusinho" target="_blank">
-                        <img src="/assets/svg/git.svg" alt="Github" width="45px">
+                        <img src="/eimatheusinho.github.io/assets/svg/git.svg" alt="Github" width="45px">
                     </a>
                 </div>
 
                 <div class="in">
                     <a href="https://www.linkedin.com/in/matheus-eduardo-dos-santos-ti/" target="_blank">
-                        <img src="/assets/svg/in.svg" alt="Linkedin" width="43px">
+                        <img src="/eimatheusinho.github.io/assets/svg/in.svg" alt="Linkedin" width="43px">
                     </a>
                 </div>
 
                 <div class="inst">
                     <a href="https://www.instagram.com/eimatheusinho/" target="_blank">
-                        <img src="/assets/svg/inst.svg" alt="Instagram" width="36px">
+                        <img src="/eimatheusinho.github.io/assets/svg/inst.svg" alt="Instagram" width="36px">
                     </a>
                 </div>
 
@@ -65,7 +68,7 @@
             </div>
             
             <div class="img">
-                <img src="/assets/minhaFoto.jpg" alt="minha foto" width="250px" height="250px"></div>
+                <img src="/eimatheusinho.github.io/assets/minhaFoto.jpg" alt="minha foto" width="250px" height="250px"></div>
             <div class="square"></div>
         </div>
 
@@ -90,7 +93,7 @@
                     <p class="tec">VSCode  Html  Css  Javascript  GitHub  AdobeXD  Trello</p>
 
                     <a href="https://github.com/tamysteimbch/maria" target="_blank">
-                        <img src="/assets/Maria.png" alt="Projeto" width="600px">
+                        <img src="/eimatheusinho.github.io/assets/Maria.png" alt="Projeto" width="600px">
                     </a>
                     
                 </div>
@@ -110,7 +113,7 @@
                     <p class="tec">Figma  Trello</p>
                     
                     <a href="https://www.figma.com/community/file/1396573503759984762/muve" target="_blank">
-                        <img src="/assets/Muve (2).png" alt="Projeto" width="600px">
+                        <img src="/eimatheusinho.github.io/assets/Muve (2).png" alt="Projeto" width="600px">
                     </a>
                 </div>
     
@@ -127,7 +130,7 @@
                     <p class="tec">Figma</p>
 
                     <a href="https://www.figma.com/community/file/1337472166965533378/pizzaria-desktop" target="_blank">
-                        <img src="/assets/Pizzaria.png" alt="Projeto" width="600px" height="350px">
+                        <img src="/eimatheusinho.github.io/assets/Pizzaria.png" alt="Projeto" width="600px" height="350px">
                     </a>
                 </div>
     
@@ -190,17 +193,18 @@
 
                 <div class="topBtn">
                     <button onclick="scrollToTop()" class="top">
-                        <img src="/assets/up-arrow.png" alt="Seta" width="50px">
+                        <img src="/eimatheusinho.github.io/assets/up-arrow.png" alt="Seta" width="50px">
                     </button>
                 </div>
-                
 
                 <p class="cred">Projetado e desenvolvido por Matheus Santos 2024</p>
             </div>
         </div>
     </div>
-<script src="/js/scroll.js"></script>
-<script src="/js/email.js"></script>
-<script src="/js/scrollT.js"></script>
+<script src="/eimatheusinho.github.io/js/scroll.js"></script>
+<script src="/eimatheusinho.github.io/js/btn.js"></script>
+<script src="/eimatheusinho.github.io/js/intro.js"></script>
+<script src="/eimatheusinho.github.io/js/email.js"></script>
+<script src="/eimatheusinho.github.io/js/scrollT.js"></script>
 </body>
 </html>
